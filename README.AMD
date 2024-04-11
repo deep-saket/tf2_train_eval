@@ -1,0 +1,26 @@
+# CVML
+
+* This codebase is a framework built to ease ML model building and training stage
+* This codebase contains functions to train a model, load dataset in various ways, tflite saving etc. ultilities
+* There are 5 parts to this package
+    * callbacks - inherited from keras.callbacks.Callback
+    * tflite -  ultilities such as exporting model as tflite
+    * dataloaders - various dataloaders 
+    * costs - various cost function
+    * metrics - various metrics to evaluate a model similar to keras metrics
+    * TrainValTest - a class, which hels in training and evaluating models
+
+## 1. callbacks
+* Like keras callbacks, these classes can be used to do certain things at the end of the training loop or iteration
+
+## 2. tflite
+* This package contains supporting functionalities to port a model into tflite
+
+## 3. dataloaders
+* This package contains a set of dataloaders to be used for various deep learning tasks
+
+## 4. costs
+
+## 5. metrics
+
+## 6. TrainValTest
